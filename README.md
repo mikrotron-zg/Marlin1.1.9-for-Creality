@@ -2,7 +2,7 @@
 
 _Marlin 1.1.9 firmware for Creality 3D printers and different upgrades_
 
-Based on [Marlin](https://github.com/MarlinFirmware/Marlin) firmware, with different configurations for Creality 3D printers (mainly Ender 3 series), e.g. silent board or BLTouch upgrade. This version is derived from _1.1.x-bugfix_ branch.
+Based on [Marlin](https://github.com/MarlinFirmware/Marlin) firmware, with different configurations for Creality 3D printers (mainly Ender 3 series), e.g. silent board or BLTouch upgrade. This version is derived from _1.1.x-bugfix_ branch. This **is not official Creality firmware** and it lacks some features (e.g. power loss resume), but **it does have thermal runaway protection enabled** on the other hand.
 
 ## Directories
 
@@ -17,7 +17,7 @@ Based on [Marlin](https://github.com/MarlinFirmware/Marlin) firmware, with diffe
 
 _Marlin 1.1.9 firmware za Creality 3D printere s raznim dodacima i konfiguracijama_
 
-Ova verzija bazirana je na [Marlin](https://github.com/MarlinFirmware/Marlin) firmwareu (_1.1.x-bugfix_ branch) s raznim konfiguracijama za Creality 3D printere (uglavnom Ender 3) i za različite dodatke kao što su BLTouch ili silent motherboard.
+Ova verzija bazirana je na [Marlin](https://github.com/MarlinFirmware/Marlin) firmwareu (_1.1.x-bugfix_ branch) s raznim konfiguracijama za Creality 3D printere (uglavnom Ender 3) i za različite dodatke kao što su BLTouch ili silent motherboard. Ovo **nije službeni Creality firmware**, ali zato s druge strane **ima omogućen thermal runaway protection**.
 
 ## Direktoriji
 
