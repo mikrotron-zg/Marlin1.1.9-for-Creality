@@ -1,0 +1,32 @@
+menu.cpu=Processor
+
+##############################################################
+
+sanguino.name=Sanguino 1284p
+
+sanguino.upload.tool=arduino:avrdude
+sanguino.upload.protocol=arduino
+
+sanguino.bootloader.tool=arduino:avrdude
+sanguino.bootloader.low_fuses=0xFF
+sanguino.bootloader.high_fuses=0xDE
+sanguino.bootloader.extended_fuses=0xFD
+sanguino.bootloader.unlock_bits=0x3F
+sanguino.bootloader.lock_bits=0x0F
+
+sanguino.build.board=AVR_SANGUINO
+sanguino.build.core=arduino:arduino
+sanguino.build.variant=sanguino
+
+sanguino.menu.cpu.atmega1284p=ATmega1284P (16 MHz)
+
+sanguino.menu.cpu.atmega1284p.upload.maximum_size=130048
+sanguino.menu.cpu.atmega1284p.upload.maximum_data_size=16384
+sanguino.menu.cpu.atmega1284p.upload.speed=115200
+
+sanguino.menu.cpu.atmega1284p.bootloader.file=optiboot/optiboot_atmega1284p.hex
+
+sanguino.menu.cpu.atmega1284p.build.mcu=atmega1284p
+sanguino.menu.cpu.atmega1284p.build.f_cpu=16000000L
+
+############################################################
